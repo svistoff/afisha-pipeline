@@ -1,0 +1,17 @@
+# секреты и окружение
+.env
+*.env
+!.env.example
+
+# питон
+venv/
+__pycache__/
+*.pyc
+
+# базы данных / рантайм
+*.db
+*.db-shm
+*.db-wal
+
+# логи
+*.log
